@@ -1,12 +1,25 @@
-<aside id="lateral">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<section id="content">
+ 
+<app-nav></app-nav>
 
-  <ul id="lateralUno" name="arriba">
-  <!--  <li>Logo argentina programa</li>-->
-  <li><a routerLink = "sobre-mi" aria-current="page">Sobre mí</a></li>
-  <li><a routerLink = "educacion" aria-current="page">Educación</a></li>
-  <li><a routerLink = "hard-soft" aria-current="page">Hard & Soft Kills</a> </li>
-  <li><a routerLink = "proyectos" aria-current="page">Proyectos</a></li>
-  <li><a routerLink = "contacto" aria-current="page">Contácto</a></li>
-  </ul>
-  </aside>
-  <router-outlet></router-outlet>
+<main>
+<router-outlet></router-outlet>
+</main>
+</section>
+  <footer>
+<app-footer>
+  
+</app-footer>
+  </footer>
+</body>
+</html>
+

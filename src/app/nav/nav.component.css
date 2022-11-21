@@ -1,0 +1,15 @@
+#lateralUno{
+    background-color: blue;
+    height: 100vh;
+    padding-top: 80%;
+}
+
+#lateralUno li{
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+#lateralUno li a{
+    color: azure;
+    text-decoration: none;
+}
