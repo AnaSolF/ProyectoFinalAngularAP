@@ -7,13 +7,15 @@ import { ProyectosComponent } from './proyectos/proyectos.component'
 import { HardSoftComponent } from './hard-soft/hard-soft.component'
 import { EducacionComponent } from './educacion/educacion.component'
 import { ContactoComponent } from './contacto/contacto.component'
+import { NavComponent } from './nav/nav.component'
 
 const routes: Routes = [
   {path: 'sobre-mi', component: SobreMiComponent},
   { path: 'proyectos', component: ProyectosComponent },
   { path: 'hard-soft', component: HardSoftComponent },
   { path: 'educacion', component: EducacionComponent },
-  {path: 'contacto', component: ContactoComponent},
+  { path: 'contacto', component: ContactoComponent },
+  {path: 'nav', component: NavComponent},
 ];
 
 @NgModule({

@@ -1,15 +1,18 @@
 #lateralUno{
-    background-color: blue;
-    height: 100vh;
-    padding-top: 80%;
+    padding-top: 28%;
+    padding-right: 10px;
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: none;
 }
 
 #lateralUno li{
     list-style-type: none;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 #lateralUno li a{
-    color: azure;
     text-decoration: none;
+    color: rgb(33, 30, 30)
 }

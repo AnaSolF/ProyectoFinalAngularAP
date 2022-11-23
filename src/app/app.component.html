@@ -7,18 +7,18 @@
   <title>Document</title>
 </head>
 <body>
-<section id="content">
- 
-<app-nav></app-nav>
-
-<main>
-<router-outlet></router-outlet>
-</main>
-</section>
-  <footer>
-<app-footer>
   
-</app-footer>
+<app-header></app-header> 
+
+<section id="content">
+  
+  <nav id="navegar"><app-nav></app-nav></nav> 
+ 
+  <main><router-outlet></router-outlet></main>
+</section>
+
+  <footer>
+<app-footer></app-footer>
   </footer>
 </body>
 </html>
