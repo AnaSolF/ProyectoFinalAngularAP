@@ -1,7 +1,7 @@
-<nav id="menu" style=" display: flex; border-bottom:1px solid black
-; background-color:crimson; color: white;">
+<nav id="menu" style=" display: flex; border-bottom:2px solid crimson
+; background-color: white;">
 <ul style="display:flex; justify-content:flex-start; padding-top: 50px;">
-<li><button id="btnMenu"  (click)="open(content)"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+<li><button id="btnMenu"(click)="open(content)"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
 </svg></button>
 </li>
@@ -20,7 +20,7 @@
 <Li style="margin-left: 25px;"><a href="#" target="_blank" rel="noopener noreferrer"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAACSklEQVRoge3ZO2tUQRTA8V+MKCLGTjFYaCH4CD5Qoha2NiI+ULDwA4iIoLUQHwga/Aril7DzWQgiFhK0EAsf4CsmQhoRs5JYzMZkL3vv3R3vI8L+4RRbnJn/2bl3duYsPeqlr6Rxd2Ib1jQ/f8MrjJU0XyGsxjV8wGxKvMdVDNTkmMopTEoXT8YETtZi2oYrmNG5/FzMYKQG3xbO6148GWcrt24yjEYHgnnRwO6K3cHDCNm0eFyxu/0FiS+MvTEiSyILOBaZl8XREsZM5bniV+BZjEjsCqyPzCt8zNijxC8si8xNYxrLu02KXYHvkXlZTMQkxRbwMTIvi08xSbEFPIrMy+JBCWOmsk/xu9BwlQXA/YLEZ5WzornsUcxZaBq7Knb/y7kOBPPiTOXWCUbE3wcu1eDblhPCvbdT+XEcr8U0gwHhdvZOuvhbXMaqoiYtqyuxHUNY2/z8VehKvCxpvv+XIlagH5uErXAzBoVvfoX5A980fgrP/me8xgu8EV7maGIKWIoDOCTczHZgZeT8P4Rm11PcxRP8jhwrl40YFZ7noo8Rc/EFN7GhSPF1uCM8BmWJt/t1vt2c+584jakKxZMx1XTomn7cqlE8GaO6PPrfWATSybjeqfwRcWebsmMGh/Pk+4T9uW7ZtBiTs/WX0XErOlo6eMkXYyirukVCi2OygMEKRWJpaYAlCyjrdFokLY6xbZVFQ7KAyVosuiPTcatiOg1lRQNb8iq8KBxp65ZtJ38hKZv20g7hoPk/qutmHPeEa2mPHj0W8Aeqtnj9kkqEBgAAAABJRU5ErkJggg==" width="35px;" height="35px; padding-top: 10px;"></a>
 </Li>
 </ul>
-<div><img src="/assets/Imagenes/APLogo-20-20 (1).png" alt="logoAP" style="width: 90px;padding-top: 50px; height: 90px; float: right; "></div>
+<img src="/assets/Imagenes/LAP.png" alt="logoAP" id="logoAP"  style="float: right; margin-left: 30px; padding-top: 50px; width: 50px; height: 90px;">
 </nav>
 <ng-template #content let-offcanvas>
 	<div class="offcanvas-header">
@@ -28,11 +28,11 @@
 		<button type="button" class="btn-close" aria-label="Close" (click)="offcanvas.dismiss('Cross click')"></button>
 	</div>
 	<div class="offcanvas-body bg-dark">
-		<p><li><a routerLink = "sobre-mi" aria-current="page" style="color:white ;">Sobre mí&hellip;</a></li></p><br>
-		<p><li><a routerLink = "educacion" aria-current="page"style="color:white ;" >Educación&hellip;</a></li></p><br>
-    <p><li><a routerLink = "hard-soft" aria-current="page" style="color:white ;">Hard & Soft Kills&hellip;</a> </li></p><br>
-    <p><li><a routerLink = "proyectos" aria-current="page" style="color:white ;">Proyectos&hellip;</a></li></p><br>
-    <p><li><a routerLink = "contacto" aria-current="page" style="color:white ;">Contácto&hellip;</a></li></p><br>
+		<p><li><a routerLink = "sobre-mi" aria-current="page" style="color:white;">Sobre mí&hellip;</a></li></p><br>
+		<p><li><a routerLink = "educacion" aria-current="page"style="color:white;" >Educación&hellip;</a></li></p><br>
+    <p><li><a routerLink = "hard-soft" aria-current="page" style="color:white;">Hard & Soft Kills&hellip;</a> </li></p><br>
+    <p><li><a routerLink = "proyectos" aria-current="page" style="color:white;">Proyectos&hellip;</a></li></p><br>
+    <p><li><a routerLink = "contacto" aria-current="page" style="color:white;">Contácto&hellip;</a></li></p><br>
 		<div class="text-end">
 			<button type="button" class="btn btn-outline-dark" (click)="offcanvas.close('Close click')">Close</button>
 		</div>

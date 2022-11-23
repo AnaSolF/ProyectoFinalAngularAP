@@ -1,35 +1,35 @@
 #educacion{
     background-color: hwb(0 100% 0% / 0.911);
-    width: 95%;
+    width: 97%;
     border-radius: 5px;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 }
 
- @media screen and (min-width: 700px){
-    #educacion{
-        background-color: hwb(0 100% 0% / 0.911);
-        width: 95%;
-        height: 90vh;
-        border-radius: 10px;
-        margin-top: 20px;
-        padding-left: 50px;
-        margin-left: 50px;
+@media screen and (min-width: 800px){
+    
+    #contenDatos{
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
     }
-} 
+}
 
 #texto{
    color: black;
-   margin-left: 50px;
+   margin: 50px;
    padding-right: 10px;
    padding-bottom: 30px;
+   text-align: center;
 }
 
-#datos{
+.datos{
     margin-left: 30px;
 }
 
-#datos li{
+.datos li{
     padding-bottom: 30px;
     border-bottom: 1px solid gainsboro;
     margin: 3%;
@@ -37,22 +37,14 @@
     text-align: center;
 }
 
-#datos li:hover{
+.datos li:hover{
 border-color: crimson
 }
-
-
 
 h3{
     text-align: center;
     padding-top: 20px;
     margin-bottom: 50px;
-}
-
-.imgCont{
-width:200px ;
-height: 200px;
-margin-left: 30px;
 }
 
 .info{
@@ -62,8 +54,10 @@ padding-top: 10px;
 .imgCont img{
     transition: transform .3s;    
     border-radius: 10px;
+    width:180px ;
+    height: 180px;
 }
 
 .imgCont img:hover{
-    transform: scale(1.5); 
+    transform: scale(1.8); 
 }
