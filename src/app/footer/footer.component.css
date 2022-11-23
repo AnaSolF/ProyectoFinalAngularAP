@@ -4,5 +4,5 @@ footer{
     text-align: center;
     color: white;
     padding-top: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-top: 2px solid crimson;
 }

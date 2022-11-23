@@ -10,6 +10,9 @@ import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { HardSoftComponent } from './hard-soft/hard-soft.component'; 
 import { EducacionComponent } from './educacion/educacion.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from './header/header.component';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +22,15 @@ import { EducacionComponent } from './educacion/educacion.component';
     SobreMiComponent,
     ProyectosComponent,
     HardSoftComponent,
-    EducacionComponent
+    EducacionComponent,
+    HeaderComponent,
+    BannerComponent,
   ],
-  
+
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

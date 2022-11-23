@@ -1,0 +1,42 @@
+#sobreMi{
+    background-color: hwb(0 100% 0% / 0.911);
+    width: 95%;
+    height: 100%;
+}
+
+@media screen and (min-width: 700px){
+    #sobreMi{
+        background-color: hwb(0 100% 0% / 0.911);
+        width: 95%;
+        height: 90vh;
+        border-radius: 10px;
+        margin-top: 20px;
+        padding-left: 50px;
+        margin-left: 50px;
+    }
+}
+
+#texto{
+   color: black;
+   margin-left: 50px;
+   
+}
+
+#datos li{
+    padding-bottom: 30px;
+    border-bottom: 1px solid gainsboro;
+    margin: 3%;
+    border-radius: 3px ;
+    text-align: center;
+
+}
+
+h3{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+#datos li:hover{
+    border-color: crimson
+    }
