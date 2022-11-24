@@ -7,6 +7,7 @@ import { NgbOffcanvasConfig, NgbOffcanvas } from '@ng-bootstrap/ng-bootstrap';
 	// add NgbOffcanvasConfig and NgbOffcanvas to the component providers
 	providers: [NgbOffcanvasConfig, NgbOffcanvas],
 })
+	
 export class HeaderComponent {
 	constructor(config: NgbOffcanvasConfig, private offcanvasService: NgbOffcanvas) {
 		// customize default values of offcanvas used by this component tree
@@ -20,3 +21,7 @@ export class HeaderComponent {
 		this.offcanvasService.open(content);
 	}
 }
+
+
+
+
