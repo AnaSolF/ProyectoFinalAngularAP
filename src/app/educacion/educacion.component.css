@@ -1,11 +1,8 @@
 #educacion{
     background-color: hwb(0 100% 0% / 0.911);
-    width: 97%;
+    width: 92%;
     border-radius: 5px;
     justify-content: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    
 }
 
 @media screen and (min-width: 800px){
