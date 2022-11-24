@@ -1,30 +1,23 @@
 #educacion{
     background-color: hwb(0 100% 0% / 0.911);
-    width: 92%;
+    width: 100%;
     border-radius: 5px;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content:center;
 }
 
-@media screen and (min-width: 800px){
-    
-    #contenDatos{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-}
-
-#texto{
+#text{
    color: black;
-   margin: 50px;
-   padding-right: 10px;
-   padding-bottom: 30px;
    text-align: center;
+   background-color: antiquewhite;
 }
 
 .datos{
-    margin-left: 30px;
+    margin-right: 100px;
 }
+
 
 .datos li{
     padding-bottom: 30px;
@@ -40,9 +33,9 @@ border-color: crimson
 
 h3{
     text-align: center;
-    padding-top: 20px;
-    margin-bottom: 50px;
-}
+    color: white;
+    padding-top: 50px;
+}  
 
 .info{
 padding-top: 10px;
@@ -51,10 +44,82 @@ padding-top: 10px;
 .imgCont img{
     transition: transform .3s;    
     border-radius: 10px;
-    width:180px ;
-    height: 180px;
+    width:200px ;
+    height: 200px;
 }
 
 .imgCont img:hover{
     transform: scale(1.8); 
+} 
+
+#content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ #ti{
+    background-color:blanchedalmond;
+    margin-bottom: 8px;
+    padding-bottom: 40px;
+}  
+
+#p1{
+color: black;
+margin-left: 50px;
+padding-top: 25px;
+margin-right: 30px;
+text-align: justify;
+}
+
+#todo{
+    margin-top: 15px;
+}
+
+h4{
+    padding-top: 70px;
+}
+
+@media screen and (min-width: 800px){
+    
+    #contenDatos{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 150px;
+        margin-top: 150px;
+    }
+    #educacion{
+        background-color: hwb(0 100% 0% / 0.911);
+        width: 100%;
+        border-radius: 5px;
+        height: 100%;
+    }
+
+    #content{
+        display: flex;
+    }
+
+    #educacion{
+        background-color: hwb(0 100% 0% / 0.911);
+        width: 70%;
+        border-radius: 5px;
+        height: 100%;
+    }
+
+    #text{
+        width: 30%;
+    }
+
+    #ti{
+        background-color:blanchedalmond;
+       height: 10%;
+       text-align: center;
+    }
+
+     h3{
+        text-align: center;
+        color: white;
+        padding-bottom: 30px;
+        padding-top: 80px;
+    }  
 }

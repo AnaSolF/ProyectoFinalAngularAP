@@ -7,8 +7,9 @@
   <title>Document</title>
 </head>
 <body>
-  
 <app-header></app-header> 
+
+<app-banner></app-banner>
 
 <section id="content">
   
@@ -17,9 +18,12 @@
   <main><router-outlet></router-outlet></main>
 </section>
 
-  <footer>
+  <footer><br>
 <app-footer></app-footer>
   </footer>
 </body>
+<script src="node_modules/core-js/client/shim.min.js"></script>
+
+  <script src="node_modules/zone.js/bundles/zone.umd.js"></script>
 </html>
 

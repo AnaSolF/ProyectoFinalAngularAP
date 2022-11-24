@@ -5,8 +5,9 @@ h3{
 }
 
 #form{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 80px;
     }
     
 #buttons{
@@ -16,17 +17,26 @@ h3{
 }
         
 #buttons .btn{
-    margin: 10px;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-left: 10px;
 }
 
 
 @media screen and (min-width: 800px){
     #form{
-        margin-left: 80px;
-        margin-right: 80px;
+        margin-left: 180px;
+        margin-right: 180px;
         }  
 }
 
 h3{
     color: white;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+
+  #contact{
+   margin-bottom: 0%;
+   height: 100vh;
   }

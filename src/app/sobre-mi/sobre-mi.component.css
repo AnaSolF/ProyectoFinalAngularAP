@@ -1,25 +1,74 @@
-#sobreMi{
-    background-color: hwb(0 100% 0% / 0.911);
-    width: 95%;
-    height: 100%;
-}
-
-@media screen and (min-width: 700px){
-    #sobreMi{
-        background-color: hwb(0 100% 0% / 0.911);
-        width: 95%;
-        height: 90vh;
-        border-radius: 10px;
-        margin-top: 20px;
-        padding-left: 50px;
-        margin-left: 50px;
+ #uno{
+       display: flex;
+       flex-direction: column;
+       margin-left: 10px;
+       margin-right: 20px;
     }
-}
 
-#texto{
-   color: black;
-   margin-left: 50px;
-   
+    #dos{
+        height: 100%;
+        background-color: bisque;
+
+    }
+
+    #tres{
+        height: 100%;
+        background-color: cornsilk;
+        padding-top: 50px;  
+    }
+
+     #cuatro{
+        background-color:blanchedalmond;
+        height: 20%;
+        margin-left: 10px;
+        margin-right: 20px;
+    } 
+
+    h3{
+        text-align: center;
+        padding-top: 90px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    @media screen and (min-width: 700px){
+        #uno{
+        display: flex;  
+        flex-direction: row;
+        height: 100vh;
+        }
+
+        #dos{
+            background-color:bisque;
+            width: 30%;
+        }
+    
+        #tres{
+            background-color:cornsilk;
+            padding-right: 50px;
+            width: 70%;
+        }
+
+         #cuatro{
+           background-color:blanchedalmond;
+        } 
+
+        #datos li{
+            padding-bottom: 30px;
+            border-bottom: 1px solid gainsboro;
+            margin: 3%;
+            border-radius: 3px ;
+            text-align:justify;
+    }
+    } 
+    
+#p1{
+    color: black;
+    margin-left: 50px;
+    padding-top: 50px;
+    margin-right: 30px;
+    text-align: justify;
 }
 
 #datos li{
@@ -27,16 +76,12 @@
     border-bottom: 1px solid gainsboro;
     margin: 3%;
     border-radius: 3px ;
-    text-align: center;
-
-}
-
-h3{
-    text-align: center;
-    padding-top: 20px;
-    margin-bottom: 50px;
+    text-align:center;
 }
 
 #datos li:hover{
     border-color: crimson
     }
+
+    
+     
