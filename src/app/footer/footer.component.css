@@ -1,9 +1,9 @@
 
-footer{
+#foo{
     background-color: black;
-    height:15vh;
     text-align: center;
     color: white;
     padding-top: 25px;
     border-top: 2px solid crimson;
+    margin-top: 70px;
 }

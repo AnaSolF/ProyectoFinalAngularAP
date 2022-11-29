@@ -35,3 +35,13 @@ li{
 a{
     text-decoration: none;
 }
+
+main{
+    width: 100%;
+}
+
+#contentPrincipal{
+    background-image: url(/assets/Imagenes/northern-lights-7589302_1920.jpg);
+    width: 100%;
+    height: 100vh;
+}
