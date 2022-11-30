@@ -4,6 +4,8 @@
     text-align: center;
     color: white;
     padding-top: 25px;
+    padding-bottom: 25px;
     border-top: 2px solid crimson;
-    margin-top: 70px;
+    align-self: flex-end;
+    width: 100%;
 }

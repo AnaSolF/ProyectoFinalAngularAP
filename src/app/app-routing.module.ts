@@ -8,8 +8,10 @@ import { HardSoftComponent } from './hard-soft/hard-soft.component'
 import { EducacionComponent } from './educacion/educacion.component'
 import { ContactoComponent } from './contacto/contacto.component'
 import { NavComponent } from './nav/nav.component'
+import { AppComponent } from './app.component'
 
 const routes: Routes = [
+  {path: 'app-component', component: AppComponent},
   {path: 'sobre-mi', component: SobreMiComponent},
   { path: 'proyectos', component: ProyectosComponent },
   { path: 'hard-soft', component: HardSoftComponent },

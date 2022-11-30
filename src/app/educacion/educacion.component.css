@@ -1,6 +1,5 @@
-#educacion{
-    background-color: hwb(0 100% 0% / 0.911);
-    width: 100%;
+ #educacion{
+    background-color: azure;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -11,13 +10,8 @@
 #text{
    color: black;
    text-align: center;
-   background-color: antiquewhite;
+   background-color: azure;
 }
-
-.datos{
-    margin-right: 100px;
-}
-
 
 .datos li{
     padding-bottom: 30px;
@@ -33,8 +27,7 @@ border-color: crimson
 
 h3{
     text-align: center;
-    color: white;
-    padding-top: 50px;
+    color: black;
 }  
 
 .info{
@@ -55,13 +48,12 @@ padding-top: 10px;
 #content{
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 50px;
 }
 
  #ti{
-    background-color:blanchedalmond;
-    margin-bottom: 8px;
-    padding-bottom: 40px;
-}  
+    margin-right: 50px;
+}    
 
 #p1{
 color: black;
@@ -89,37 +81,33 @@ h4{
         margin-top: 150px;
     }
     #educacion{
-        background-color: hwb(0 100% 0% );
+        background-color: azure;
         width: 100%;
         border-radius: 5px;
         height: 100%;
+        display: flex;
+       
     }
 
     #content{
         display: flex;
-    }
-
-    #educacion{
-        background-color: hwb(0 100% 0% / 0.911);
-        width: 70%;
-        border-radius: 5px;
-        height: 100%;
+        flex-direction: column;
+        align-content: center;
     }
 
     #text{
-        width: 30%;
+        width: 100%;
     }
 
     #ti{
-        background-color:blanchedalmond;
-       height: 10%;
-       text-align: center;
+        background-color:azure;
+        display: flex;
     }
 
      h3{
-        text-align: center;
-        color: white;
+        text-align: left;
+        color: black;
         padding-bottom: 30px;
         padding-top: 80px;
     }  
-}
+} 

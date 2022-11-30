@@ -1,42 +1,26 @@
-
-h3{
-    margin-top: 30px;
-    text-align: center;
-}
-
 #form{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 30px;
     margin-bottom: 80px;
     }
     
 #buttons{
     display: flex;
     justify-content:center;
-    margin: 10px;
 }
         
 #buttons .btn{
     margin-bottom: 50px;
     margin-top: 70px;
-    margin-left: 10px;
 }
 
-
-@media screen and (min-width: 800px){
-    #form{
-        margin-left: 180px;
-        margin-right: 180px;
-        }  
+.btn{
+    margin: 5px;
 }
+
 
 h3{
-    color: white;
+    color: black;
     margin-top: 80px;
     margin-bottom: 50px;
-  }
-
-  #contact{
-   margin-bottom: 0%;
-   height: 100vh;
-  }
+    text-align: left;
+}
