@@ -1,3 +1,29 @@
 p1{
     color: white;
 }
+
+#contentProgress{
+   display: flex;
+}
+
+#progress{
+width: 100%;
+}
+
+#progress ul li{
+   padding-bottom: 17px;
+   padding-top: 15px;
+   width: 100%;
+   float: right;
+}
+
+#skills{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+h3{
+    padding-bottom: 20px;
+}
+

@@ -1,0 +1,15 @@
+#todo{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#proyectos{
+   margin-right: 20px;
+}
+
+h3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

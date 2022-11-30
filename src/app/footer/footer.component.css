@@ -1,8 +1,11 @@
-footer{
+
+#foo{
     background-color: black;
-    height: 10vh;
     text-align: center;
     color: white;
-    padding-top: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     border-top: 2px solid crimson;
+    align-self: flex-end;
+    width: 100%;
 }

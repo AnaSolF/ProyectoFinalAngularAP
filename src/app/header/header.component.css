@@ -2,13 +2,9 @@
     width: 100%;
     background-color: black;
     display: flex;
-    padding: left 10px;
+    padding-left: 10px;
    }
 
 #icon{
   color: blanchedalmond;
-}
-
-#btnMenu{
-  border-radius: 10px;
 }
