@@ -13,6 +13,8 @@ import { EducacionComponent } from './educacion/educacion.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './header/header.component';
 import { BannerComponent } from './banner/banner.component';
+import { PorfolioService } from './servicios/porfolio.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { BannerComponent } from './banner/banner.component';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    HttpClientModule,
   ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -5,12 +5,12 @@ body{
 
 main{
     width: 100%;
-    margin: 50px;
+    margin: 50px; 
+    justify-content: center;
 }
 
 #content{
 width: 100%;
-
 }
 
 #navegar{
@@ -38,7 +38,6 @@ background-color: azure;
 text-align: center;
 line-height:  3,5em;
 float: left;
-padding-bottom: 20%;
 }
 
 #uno{
