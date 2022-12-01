@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { NgbOffcanvasConfig, NgbOffcanvas } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -19,6 +19,9 @@ export class HeaderComponent {
 
 	open(content : any) {
 		this.offcanvasService.open(content);
+	}
+
+	ngOnInit() {
 	}
 }
 
