@@ -1,10 +1,56 @@
 #menu{
     width: 100%;
-    background-color: black;
     display: flex;
     padding-left: 10px;
+    display: flex;
+    border-bottom:2px solid crimson;
+    background-color: white;
    }
 
 #icon{
   color: blanchedalmond;
 }
+
+
+#headerNav{
+  display: none;
+}
+
+#NavMenu{
+  display:flex;
+  justify-content:flex-start;
+  padding-top: 50px;
+}
+
+#NavMenu li{
+  padding-left: 20px;
+  padding-top: 8px;
+}
+
+@media screen and (min-width: 800px){
+
+#headerNav{
+  display: flex;
+  padding-top: 47px;
+  align-items: center;
+  background-color: white;
+  padding-bottom: 20px;
+  border-bottom:2px solid crimson;
+}
+#headerNav li{
+  padding-left:30px;
+  padding-right: 10px;
+  flex-wrap: nowrap;
+}
+
+#logo{
+  margin-bottom: 15px;
+}
+
+#NavMenu,
+#menu{
+  display: none;
+}
+}
+
+

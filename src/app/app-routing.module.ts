@@ -9,15 +9,17 @@ import { EducacionComponent } from './educacion/educacion.component'
 import { ContactoComponent } from './contacto/contacto.component'
 import { NavComponent } from './nav/nav.component'
 import { AppComponent } from './app.component'
+import { RegisterComponent } from './register/register.component'
 
 const routes: Routes = [
-  {path: 'app-component', component: AppComponent},
-  {path: 'sobre-mi', component: SobreMiComponent},
+  { path: 'app-component', component: AppComponent },
+  { path: 'sobre-mi', component: SobreMiComponent },
   { path: 'proyectos', component: ProyectosComponent },
   { path: 'hard-soft', component: HardSoftComponent },
   { path: 'educacion', component: EducacionComponent },
   { path: 'contacto', component: ContactoComponent },
-  {path: 'nav', component: NavComponent},
+  { path: 'nav', component: NavComponent },
+  { path: 'register', component: RegisterComponent },
 ];
 
 @NgModule({
