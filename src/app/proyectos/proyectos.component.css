@@ -1,15 +1,22 @@
-#todo{
+/* #todo{
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+    background-color: azure;
+    border-radius: 20px;
+} */
 
 #proyectos{
    margin-right: 20px;
 }
 
 h3{
-    margin-top: 50px;
-    margin-bottom: 50px;
+  padding: 40px;
+  background-color: azure;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-right: 30px;
+  padding-left: 35px;
 }

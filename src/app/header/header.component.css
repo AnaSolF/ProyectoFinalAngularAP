@@ -5,12 +5,10 @@
     display: flex;
     border-bottom:2px solid crimson;
     background-color: white;
-   }
-
-#icon{
-  color: blanchedalmond;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
-
 
 #headerNav{
   display: none;
@@ -18,8 +16,8 @@
 
 #NavMenu{
   display:flex;
-  justify-content:flex-start;
-  padding-top: 50px;
+  justify-content:center;
+  padding-top: 30px;
 }
 
 #NavMenu li{
@@ -27,30 +25,59 @@
   padding-top: 8px;
 }
 
-@media screen and (min-width: 800px){
+#btnMenu{
+  padding-top: 25px;
+  color: crimson;
+}
 
-#headerNav{
+#logoAP{
+padding-top: 20px;
+}
+
+h4{
+  padding-top: 33px;
+}
+
+@media screen and (min-width: 800px){
+  #ancho{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+ #headerNav{
   display: flex;
-  padding-top: 47px;
-  align-items: center;
-  background-color: white;
+  padding-top: 30px;
+  background-color: whitesmoke;
   padding-bottom: 20px;
   border-bottom:2px solid crimson;
-}
-#headerNav li{
-  padding-left:30px;
+  justify-content: space-around;
+  font-size: large;
+ }
+
+ #headerNav li{
   padding-right: 10px;
   flex-wrap: nowrap;
-}
+ }
 
-#logo{
+ #headerNav li a{
+  color: white;
+ }
+
+ #headerNav li a:hover{
+ border-bottom: 2px solid crimson;
+ border-radius: 5px;
+ }
+
+ #logo{
   margin-bottom: 15px;
-}
+ }
 
-#NavMenu,
-#menu{
+ #NavMenu,
+ #menu{
   display: none;
-}
+ }
 }
 
 

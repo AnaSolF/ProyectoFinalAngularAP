@@ -1,11 +1,15 @@
-
 #foo{
-    background-color: black;
     text-align: center;
     color: white;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    /* padding-top: 25px;
+    margin-top: 40px;
+    padding-bottom: 25px; */
     border-top: 2px solid crimson;
     align-self: flex-end;
     width: 100%;
+    background-color: #00358e;
+    /* position: fixed;
+    bottom: 0;
+    width: 100%; */
 }
+

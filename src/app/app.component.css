@@ -1,12 +1,12 @@
 body{
-    display: flex;
-    flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 main{
-    width: 100%;
-    margin: 50px; 
-    justify-content: center;
+width: 100%;
+margin: 50px;
+justify-content: center;
 }
 
 #content{
@@ -14,80 +14,170 @@ width: 100%;
 }
 
 #navegar{
-display: flex; 
+display: flex;
 padding-left: 10px;
 }
 
+h1{
+margin-top: 50px;
+padding-left: 6%;
+color: white;
+}
+
 #cuatro{
-background-color:azure;
-padding-top: 30px;
+background-color:#00358e;
+display: flex;
+padding-top: 150px;
 padding-bottom: 30px;
 text-align: center;
-} 
+border-bottom-right-radius: 50px;
+}
 
 #p1{
-width: 100%;
-padding-bottom: 10px;
-padding-right: 40px;
-text-align: justify;
+  padding-bottom: 20px;
+  background-color: azure;
+  border-radius: 20px;
+  padding: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-right: 30px;
 }
 
 #dos{
-width: 30% ;
-background-color: azure;
+width: 30%;
+background-color: black;
 text-align: center;
-line-height:  3,5em;
+line-height: 3,5em;
 float: left;
+border-bottom-right-radius: 10px;
 }
 
 #uno{
-    width: 30%;
-    background-color: azure;
-    float: right; 
-    text-align:center;
-} 
+width: 30%;
+float: right;
+text-align:center;
+}
+
+#MU,
+#MD{
+padding-top: 40px;
+}
+
+#MU{
+margin-bottom: auto;
+}
 
 #MU li,
 #MD li{
-    line-height:  3.8em;
+line-height: 4.8em;
+}
+
+#MU li a{
+color: black;
+}
+
+#MD li a{
+color: white;
+font-size: large;
 }
 
 h3{
-    text-align: center;
-    padding-top: 12px;
-    margin-bottom: 20px;
-    color: black;
+  padding: 40px;
+  background-color: azure;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-right: 30px;
+  padding-left: 35px;
+}
+
+#foto{
+position: relative;
+width: 150px;
+height: 150px;
+overflow: hidden;
+border-radius: 50%;
+border: 2px solid crimson;
+margin-left: 35px;
+border-style:dotted;
+}
+
+#foto img{
+width: 100%;
+height: auto;
+}
+
+#MD li a:hover{
+border-bottom: 2px solid crimson;
+font-size: large;
+border-radius: 5px;
+}
+
+#MU li a:hover{
+border-bottom: 2px solid crimson;
+border-radius: 5px;
+}
+
+h2{
+    background-color: azure;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
 }
 
 @media screen and (max-width: 800px){
 
     #content{
-        display: flex;
-        flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    }
+
+    #uno{
+    width: 100%;
+    background:none;
+    }
+
+    #dos{
+    width: 100%;
+    background:none;
     }
 
     #uno,
     #dos{
-        align-self: center;
+    align-self: center;
     }
 
-    #uno #MU , 
+    #MU{
+    margin-bottom: auto;
+    }
+
+    #uno #MU ,
     #dos #MD{
-        display: flex;
-        justify-content: center;
+    display: flex;
+    justify-content: center;
     }
 
-    #uno #MU li , 
+    #uno #MU li ,
     #dos #MD li{
-        padding-left: 25px;
-        padding-right: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
     }
 
     h3{
-        text-align: center;
-        padding-top: 40px;
-        margin-bottom: 20px;
-        color: black;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    color: black;
+    }
+
+    #MD{
+      width: 65%;
+      margin-left: 23%;
+      border-radius: 20px;
+      padding-bottom: 30px;
+      margin-top: 30px;
+      padding-right: 30px;
     }
 
 }

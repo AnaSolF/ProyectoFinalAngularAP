@@ -8,9 +8,9 @@
 }
 
 #text{
-   color: black;
-   text-align: center;
-   background-color: azure;
+  background-color: azure;
+  border-radius: 20px;
+  padding: 50px;
 }
 
 .datos li{
@@ -25,43 +25,46 @@
 border-color: crimson
 }
 
-h3{
-    text-align: center;
-    color: black;
-}  
-
 .info{
 padding-top: 10px;
 }
 
 .imgCont img{
-    transition: transform .3s;    
+    transition: transform .3s;
     border-radius: 10px;
     width:200px ;
     height: 200px;
 }
 
 .imgCont img:hover{
-    transform: scale(1.8); 
-} 
+    transform: scale(1.8);
+}
 
 #content{
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 
  #ti{
-    margin-right: 50px;
-}    
+  padding: 10px;
+  background-color: azure;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-right: 30px;
+  padding-left: 35px;
+}
 
-#p1{
+/* #p1{
 color: black;
 margin-left: 50px;
 padding-top: 25px;
 margin-right: 30px;
-text-align: justify;
-}
+
+} */
 
 #todo{
     margin-top: 15px;
@@ -72,7 +75,7 @@ h4{
 }
 
 @media screen and (min-width: 800px){
-    
+
     #contenDatos{
         display: flex;
         justify-content: center;
@@ -86,28 +89,24 @@ h4{
         border-radius: 5px;
         height: 100%;
         display: flex;
-       
+
     }
 
     #content{
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-    }
-
-    #text{
-        width: 100%;
-    }
-
-    #ti{
-        background-color:azure;
-        display: flex;
+    padding-bottom: 20px;
+    background-color: azure;
+    border-radius: 20px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
     }
 
      h3{
-        text-align: left;
-        color: black;
-        padding-bottom: 30px;
-        padding-top: 80px;
-    }  
-} 
+      background-color: azure;
+      border-radius: 20px;
+      margin-bottom: 30px;
+      margin-top: 30px;
+      margin-right: 30px;
+    }
+}
