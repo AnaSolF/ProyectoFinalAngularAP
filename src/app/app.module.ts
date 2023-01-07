@@ -16,6 +16,7 @@ import { BannerComponent } from './banner/banner.component';
 import { PorfolioService } from './servicios/porfolio.service';
 import { HttpClientModule } from '@angular/common/http';
 import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { RegisterComponent } from './register/register.component';
     HeaderComponent,
     BannerComponent,
     RegisterComponent,
+    LoginComponent,
   ],
 
   imports: [
